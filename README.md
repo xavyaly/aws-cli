@@ -24,7 +24,7 @@ $ aws ec2 start-instances --instance-ids i-0f88a9d21acadac87 --region us-east-2
 
 # STOP AN INSTANCE
 
-$ aws ec2 stop-instances --instance-id i-0c73a61aa5d977205
+$ aws ec2 stop-instances --instance-id i-0f88a9d21acadac87 --region us-east-2
 {
     "StoppingInstances": [
         {
@@ -32,7 +32,7 @@ $ aws ec2 stop-instances --instance-id i-0c73a61aa5d977205
                 "Code": 64,
                 "Name": "stopping"
             },
-            "InstanceId": "i-0c73a61aa5d977205",
+            "InstanceId": "i-0f88a9d21acadac87",
             "PreviousState": {
                 "Code": 16,
                 "Name": "running"
